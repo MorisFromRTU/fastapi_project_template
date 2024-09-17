@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+python-dotenv
+databases
+asyncpg
+colorlog
+databases
