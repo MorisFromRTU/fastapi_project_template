@@ -19,7 +19,7 @@ config = context.config
 target_metadata = Base.metadata
 
 def get_sync_url():
-    url = os.getenv("DATABASE_URL")
+    url = os.getenv("DATABASE_URL_SYNC")
     if not url:
         raise ValueError("DATABASE_URL не задана в файле .env или переменных окружения")
     return url.replace('postgresql+asyncpg', 'postgresql')

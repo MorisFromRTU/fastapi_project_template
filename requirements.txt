@@ -8,3 +8,4 @@ databases
 asyncpg
 colorlog
 databases
+psycopg2-binary
